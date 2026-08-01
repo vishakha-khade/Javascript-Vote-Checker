@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6bb4b4;
+}
+.voting-container{
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+
+.voting-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #145c5c;
+    font-size: 26px;
+}
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+.input-group label{
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.input-group input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.input-group input:focus{
+    border-color: #145c5c;
+}
+.input-error{
+    border: 1px solid red !important;
+}
+.input-success{
+    border: 2px solid green !important;
+}
+.name-error, 
+.age-error, 
+.mobile-error{
+    padding-top: 4px;
+    padding-left: 5px;
+    color: red;
+    font-size: x-small;
+}
+.button-section{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.button-section button{
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #145c5c;
+    color: white;
+    font-size: 15px;
+}
+.button-section button:hover{
+    opacity: 0.85;
+}
+.senior{
+    background-color: rgb(119, 193, 218);
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 55px;
+    border-radius: 8px;
+    padding: 10px 10px 10px;
+}
+.success{
+    background-color: green;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 55px;
+    border-radius: 8px;
+    padding: 10px 10px 10px; 
+}
+.failed{
+    background-color: rgb(206, 22, 22);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 55px;
+    border-radius: 8px;
+    padding: 10px 10px 10px;
+}
+#reset-button{
+    display: none;
+}
+
+
+.result-card{
+    display: none;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 50px;
+}
+
+
+#voter{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#result,
+#result2{
+    
+    margin-top: 8px;
+    font-size: 16px;
+}

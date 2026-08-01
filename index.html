@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="voting-container">
+
+    <h1>Voting Eligibility Checker</h1>
+
+    <div class="input-group">
+        <label>Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <p class="name-error"> </p>
+    </div>
+
+    <div class="input-group">
+        <label>Mobile Number</label>
+        <input id="mobile" type="text" placeholder="Enter your mobile number">
+        <p class="mobile-error"> </p>
+    </div>
+
+    <div class="input-group">
+        <label>Age</label>
+        <input id="age" type="text" placeholder="Enter your age">
+        <p class="age-error"> </p>
+    </div>
+
+
+    <div class="button-section">
+        <button id="submit">Check Eligibility</button>
+        <button id="reset-button">Reset</button>
+    </div>
+
+
+    <div class="result-card">
+        <p id="voter"></p>
+        <p id="result"></p>
+        <p id="result2"></p>
+        <p id="Date"></p>
+    </div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
