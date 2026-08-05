@@ -1,6 +1,8 @@
-# Who Can Vote
+# Vote Eligibility Checker
 
 A beginner-friendly JavaScript DOM project for checking voting eligibility.
+# Live Website
+https://app.netlify.com/projects/vote-eligibility-checker/configuration/general
 
 ## Features
 - User input handling
